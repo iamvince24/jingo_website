@@ -1,0 +1,36 @@
+{
+  "name": "create_react_environment_with_webpack",
+  "version": "1.0.0",
+  "description": "create react environment without create-react-app",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve --open",
+    "clean-build-folder": "rimraf ./build/*",
+    "build": "npm run clean-build-folder && webpack build",
+    "dev": "webpack-dev-server"
+  },
+  "keywords": [],
+  "author": "driedfishlin",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.14.0",
+    "@babel/preset-env": "^7.14.1",
+    "@babel/preset-react": "^7.13.13",
+    "autoprefixer": "^10.4.16",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.2.7",
+    "html-webpack-plugin": "^5.3.1",
+    "mini-css-extract-plugin": "^1.6.0",
+    "postcss": "^8.4.31",
+    "postcss-loader": "^7.3.3",
+    "postcss-preset-env": "^9.3.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "rimraf": "^3.0.2",
+    "style-loader": "^3.3.3",
+    "tailwindcss": "^3.3.5",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.15.1"
+  }
+}
