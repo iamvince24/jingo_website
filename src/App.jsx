@@ -2,7 +2,12 @@ import React from "react";
 import "./style.css";
 
 function App() {
-  return <h1 className="text-primary text-4xl font-bold">rebase testing 2</h1>;
+  return (
+    <div>
+      <h1 className="text-primary text-4xl font-bold">Branch testing</h1>
+      <h1 className="text-primary text-4xl font-bold">Branch testing</h1>
+    </div>
+  );
 }
 
 export default App;
