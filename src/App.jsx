@@ -6,6 +6,7 @@ function App() {
     <div>
       <h1 className="text-primary text-4xl font-bold">Branch testing</h1>
       <h1 className="text-primary text-4xl font-bold">Branch testing</h1>
+      <h1 className="text-primary text-4xl font-bold">Branch testing</h1>
     </div>
   );
 }
